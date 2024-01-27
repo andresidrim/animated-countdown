@@ -1,4 +1,4 @@
-export type timeType = {
+export type CountdownProps = {
   days: number
   hours: number
   minutes: number

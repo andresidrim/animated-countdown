@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { timeType } from '@/types/timeType'
+import { CountdownProps } from '@/components/templates/Countdown/types'
 
-const useFormatTime = (initialTime: timeType) => {
+const useFormatTime = (initialTime: CountdownProps) => {
   const [time, setTime] = useState(initialTime)
 
   const formatTime = () => {

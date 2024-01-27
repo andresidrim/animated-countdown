@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { timeType } from '@/types/timeType'
+import { CountdownProps } from '@/components/templates/Countdown/types'
 
-const useCountdownTimer = (initialTime: timeType) => {
+const useCountdownTimer = (initialTime: CountdownProps) => {
   const [time, setTime] = useState(initialTime)
   const [hasFinished, setHasFinished] = useState(false)
 

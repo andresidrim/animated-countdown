@@ -8,12 +8,12 @@ import { cn } from '@/services/utils/className'
 import { useTheme } from '@/contexts/theme'
 import useFormatTime from '@/hooks/useFormatTime'
 import useCountdownTimer from '@/hooks/useCountdownTimer'
-import { timeType } from '@/types/timeType'
+import { CountdownProps } from './types'
 
 const Countdown = () => {
   const { theme } = useTheme()
 
-  const initialTime: timeType = {
+  const initialTime: CountdownProps = {
     days: 24,
     hours: 0,
     minutes: 0,
