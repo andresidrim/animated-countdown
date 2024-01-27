@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# old counter
+/src/components/atoms/Counter1.0
+
+# counter input (for user input)
+/src/components/atoms/CounterInput
+
+# menu
+/src/components/molecules/Menu

@@ -24,7 +24,7 @@ const preview: Preview = {
           name: "Large", value: "64px"
         }
       ],
-      default: "Medium"
+      default: "Clear"
     }
   },
 };

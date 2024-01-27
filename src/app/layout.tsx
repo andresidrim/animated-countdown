@@ -1,12 +1,16 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import "./react-slick.css"
+import './react-slick.css'
 import Providers from './providers'
 import { cn } from '@/services/utils/className'
 import Favicon from '@/components/Favicon'
 
-const inter = Inter({ subsets: ['latin'], display: "swap", variable: "--font-inter" })
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -22,9 +26,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <Favicon />
       <body className={cn(inter.variable)}>
-        <Providers>
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )
