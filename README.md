@@ -1,6 +1,6 @@
 # Animated Flip-Clock Countdown
 
-![Demo](link_to_demo_gif_or_screenshot.gif)
+
 
 ## Overview
 
@@ -63,6 +63,6 @@ To use the Animated Flip-Clock Countdown in your project:
 
 ## Demo
 
-For a live demo and additional documentation, visit [Demo Page](link_to_demo_page).
+For a live demo and additional documentation, visit [Demo Page](https://animated-countdown-seven.vercel.app/).
 
 ---
