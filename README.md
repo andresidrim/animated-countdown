@@ -1,6 +1,6 @@
 # Animated Flip-Clock Countdown
 
-
+![countdownDarkTheme](https://github.com/andresidrim/animated-countdown/assets/93491072/45b5c851-da76-4ec0-81a0-51164fc2f7da)![countdownLightTheme](https://github.com/andresidrim/animated-countdown/assets/93491072/a143d9db-2c64-4e14-afe4-73fe1a1cec0e)
 
 ## Overview
 
